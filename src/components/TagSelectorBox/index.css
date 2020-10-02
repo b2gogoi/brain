@@ -1,0 +1,37 @@
+.tag-box {
+    border: 1px solid #413e3e;
+    border-radius: 4px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.tag-filtered-list {
+    max-height: 160px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-x: scroll;
+}
+
+.tag-filtered-list > .tag-item {
+    flex-grow: 0;
+    color: #383636;
+    font-family: sans-serif;
+    margin: 0 20px;
+}
+
+.tag-filtered-list > .tag-item > input {
+    margin-right: 10px;
+}
+
+.select-tags-box {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: wrap;
+    overflow-y: auto;
+}
+
+.selected-tag {
+    border: 1px solid #413e3e;
+    border-radius: 10px;
+}
